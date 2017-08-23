@@ -1,0 +1,72 @@
+// bower:scss
+@import "bower_components/bootstrap/scss/bootstrap.scss";
+// endbower
+
+
+
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+/* Space out content a bit */
+html, body {
+  height:100%;
+  background: #f857a6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #ff5858, #f857a6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #ff5858, #f857a6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+body {
+  display:flex;
+  align-items:center;
+  justify-content: center;
+
+    .texto {
+      margin: auto;
+      width: 205px;
+      p {
+        padding-bottom: 30px;
+        background-repeat: no-repeat;
+        background-image: url(../images/divider.svg);
+        background-size: 60% 100%;
+        background-position: center 16px;
+        font-family: 'Rubik Mono One', sans-serif;
+        color: #fff;
+        font-size: 1.5rem;
+      }
+    }
+}
+
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+
+/* Custom page footer */
+.footer {
+  padding-top: 1.5rem;
+  color: #777;
+  border-top: .05rem solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 48em) {
+  .container {
+    max-width: 46rem;
+  }
+}
+.container-narrow > hr {
+  margin: 2rem 0;
+}
+
+
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 48em) {
+
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
